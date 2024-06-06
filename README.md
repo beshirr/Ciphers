@@ -24,7 +24,7 @@ capital. We will exclude any non-letter characters. Then we will fill the matrix
 to right. If there are still empty cells in the matrix, we will them fill them with 'X'. Finally, we will
 read the grid clockwise, going inwards, and starting from the top right corner.
 The original message will be: BRIGHTONANDHOVE
-The letters are then entered into the grid, which is 3-column wide:
+The letters are then entered into the grid, which is 3-column wide: <br />
 B R I <br />
 G H T <br />
 O N A <br />
@@ -44,10 +44,10 @@ In this method, a keyword is repeatedly added character by character to each alp
 the original message. The addition is carried out using the ASCII codes for each of the characters,
 modulo 26 (the number of letters in the alphabet), and the result is added to the code for the letter
 'A' in the ASCII code sequence. For example, if the original message is "due November 4" and the
-keyword is "HWone", the message will be encrypted as follows:
-message:            DUE NOVEMBER 4
-                    ||||||||||||||
-repeated keyword:   HWONEHWONEHWON
-                    ||||||||||||||
-encrypted message:  KQS RVRSZFLN 4
+keyword is "HWone", the message will be encrypted as follows: <br />
+message:            DUE NOVEMBER 4 <br />
+                    |||||||||||||| <br />
+repeated keyword:   HWONEHWONEHWON <br />
+                    |||||||||||||| <br />
+encrypted message:  KQS RVRSZFLN 4 <br />
 
