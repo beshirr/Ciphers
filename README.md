@@ -8,12 +8,12 @@ It provides a simple and secure way to protect your sensitive information by enc
 * *User-Friendly*: Easy-to-use command-line interface.
 * *Customizable*: Allows users to choose different keys and settings for encryption.
 ## Supported Algorithms
-- ### Affine Cipher
+### Affine Cipher
 In affine cipher each letter in an alphabet is mapped to its numeric equivalent x, encrypted using a
 simple mathematical function, and converted back to a letter. Letter A is given number 0 and letter
 Z is given number 25. Each letter is encrypted with the function (5x + 8) mod 26. The decryption
 function is 21(y − 8) mod 26. See examples at: https://cryptii.com/affine-cipher/.
-- ### Route Cipher
+### Route Cipher
 Route Cipher is one of the simplest and most widely known encryption techniques. In this cipher, a
 secret integer key is used to create a matrix whose number of columns is equal to the key and then
 the message is written in as many rows as needed in this matrix. Then the encrypted message is
@@ -36,10 +36,10 @@ and spiral clockwise inwards.
 Decryption involves going in the opposite process.
 The produced encrypted text will be: ITAHEVONOGBRHND
 Read more on: https://www.crypto-it.net/eng/simple/route-cipher.html
-- ### Atbash Cipher
+### Atbash Cipher
 The Atbash cipher is a very common, simple cipher. Basically, when encoded, an "A" becomes a "Z",
 "B" turns into "Y", etc. See http://rumkin.com/tools/cipher/atbash.php.
-- ### Vignere Cipher
+### Vignere Cipher
 In this method, a keyword is repeatedly added character by character to each alphabetic letter in
 the original message. The addition is carried out using the ASCII codes for each of the characters,
 modulo 26 (the number of letters in the alphabet), and the result is added to the code for the letter
@@ -52,5 +52,5 @@ repeated keyword:   HWONEHWONEHWON <br />
                     |||||||||||||| <br />
 encrypted message:  KQS RVRSZFLN 4 <br />
 </pre>
-
+ 
 
