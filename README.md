@@ -25,11 +25,11 @@ to right. If there are still empty cells in the matrix, we will them fill them w
 read the grid clockwise, going inwards, and starting from the top right corner.
 The original message will be: BRIGHTONANDHOVE
 The letters are then entered into the grid, which is 3-column wide:
-B R I
-G H T
-O N A
-N D H
-O V E
+B R I--
+G H T--
+O N A--
+N D H--
+O V E--
 Luckily, in our case, there is no need to add any additional characters at the bottom of the grid.
 The letters are then read, and appended to the cipher text. The reading starts from the top right,
 and spiral clockwise inwards.
