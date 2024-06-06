@@ -53,4 +53,19 @@ repeated keyword:   HWONEHWONEHWON <br />
 encrypted message:  KQS RVRSZFLN 4 <br />
 </pre>
  
-
+## Authors:
+* Youssef Ahmed Beshir:
+   * Email: youssefahmedbeshir@gmail.com
+   * GitHub: https://github.com/beshirr
+* Zeyad Mohamed Arafat:
+   * Email: zeyadarafat833@gmail.com
+   * GitHub: https://github.com/ZeyadArafat
+* John Ayman: 
+   * Email: johnayman03@gmail.com
+   * GitHub: https://github.com/Johnayman1
+## Contributing:
+Contributions are welcome! Please fork the repository and submit a pull request with your changes.
+## Disclaimer: 
+This is an updated version for https://github.com/ZeyadArafat/encryption-decryption
+<br >
+Thank you for using the Cipher Program! Secure your messages easily and effectively.
