@@ -45,9 +45,12 @@ the original message. The addition is carried out using the ASCII codes for each
 modulo 26 (the number of letters in the alphabet), and the result is added to the code for the letter
 'A' in the ASCII code sequence. For example, if the original message is "due November 4" and the
 keyword is "HWone", the message will be encrypted as follows: <br />
+<pre>
 message:            DUE NOVEMBER 4 <br />
                     |||||||||||||| <br />
 repeated keyword:   HWONEHWONEHWON <br />
                     |||||||||||||| <br />
 encrypted message:  KQS RVRSZFLN 4 <br />
+</pre>
+
 
